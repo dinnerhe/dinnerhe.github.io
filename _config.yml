@@ -1,0 +1,29 @@
+title: Your Name
+description: A short sentence about what you do and what you care about.
+url: ""
+baseurl: ""
+
+author:
+  name: Your Name
+  email: hello@example.com
+
+markdown: kramdown
+permalink: /notes/:title/
+timezone: America/Los_Angeles
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
