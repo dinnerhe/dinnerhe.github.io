@@ -1,0 +1,31 @@
+title: Qiwei He
+description: Software engineer building reliable full-stack applications and systems.
+url: ""
+baseurl: ""
+
+author:
+  name: Qiwei He
+  email: qiweihe@andrew.cmu.edu
+  github: https://github.com/dinnerhe
+  linkedin: https://www.linkedin.com/in/qiwei-he75
+
+markdown: kramdown
+permalink: /notes/:title/
+timezone: America/Los_Angeles
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
