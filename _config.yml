@@ -6,6 +6,7 @@ baseurl: ""
 author:
   name: Qiwei He
   email: qiweihe@andrew.cmu.edu
+  github: https://github.com/dinnerhe
   linkedin: https://www.linkedin.com/in/qiwei-he75
 
 markdown: kramdown

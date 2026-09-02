@@ -21,11 +21,11 @@ description: Qiwei He is a software engineer and Carnegie Mellon graduate studen
   <div class="project-grid">
     <article class="project-card project-card--sage">
       <div class="project-visual"><span>01</span><div class="shape shape-one"></div></div>
-      <div class="project-copy"><p class="project-type">TypeScript · Node.js · 2025</p><h3>Emergency Social Network</h3><p>A real-time communication platform designed to help people share information quickly during emergencies.</p><a href="{{ '/projects/#emergency-social-network' | relative_url }}" aria-label="View Emergency Social Network project">View project <span>↗</span></a></div>
+      <div class="project-copy"><p class="project-type">TypeScript · Node.js · 2025</p><h3>Emergency Social Network</h3><p>A social network for easy communication during emergencies, powered by a TypeScript backend and real-time broadcasting.</p><a href="{{ '/projects/#emergency-social-network' | relative_url }}" aria-label="View Emergency Social Network project">View project <span>↗</span></a></div>
     </article>
     <article class="project-card project-card--blue">
       <div class="project-visual"><span>02</span><div class="shape shape-two"></div></div>
-      <div class="project-copy"><p class="project-type">Python · Flask · 2021</p><h3>Search Engine</h3><p>An Elasticsearch-like engine that indexes tens of thousands of documents and returns ranked results in under 300 milliseconds.</p><a href="{{ '/projects/#search-engine' | relative_url }}" aria-label="View Search Engine project">View project <span>↗</span></a></div>
+      <div class="project-copy"><p class="project-type">Python · Flask · 2021</p><h3>Search Engine</h3><p>An Elasticsearch-like engine that scrapes, indexes, and ranks tens of thousands of documents with response times under 300 milliseconds.</p><a href="{{ '/projects/#search-engine' | relative_url }}" aria-label="View Search Engine project">View project <span>↗</span></a></div>
     </article>
   </div>
 </section>
