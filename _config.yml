@@ -1,11 +1,12 @@
-title: Your Name
-description: A short sentence about what you do and what you care about.
+title: Qiwei He
+description: Software engineer building reliable full-stack applications and systems.
 url: ""
 baseurl: ""
 
 author:
-  name: Your Name
-  email: hello@example.com
+  name: Qiwei He
+  email: qiweihe@andrew.cmu.edu
+  linkedin: https://www.linkedin.com/in/qiwei-he75
 
 markdown: kramdown
 permalink: /notes/:title/

@@ -1,14 +1,19 @@
 ---
 title: Projects
 permalink: /projects/
-description: Selected projects and case studies.
+description: Selected software projects by Qiwei He.
 ---
 
 <section class="shell page-wrap">
-  <header class="page-header"><p class="eyebrow">Selected work</p><h1>Projects built with<br><em>care and curiosity.</em></h1><p class="page-lead">A collection of work across disciplines. Replace these cards with your own projects and case studies.</p></header>
+  <header class="page-header"><p class="eyebrow">Selected work</p><h1>Projects built for<br><em>real-world needs.</em></h1><p class="page-lead">A selection of systems shaped by real-time communication, information retrieval, public services, and operational workflows.</p></header>
   <div class="project-list">
-    <article class="project-row"><span class="project-number">01</span><div><p class="project-type">Category · Year</p><h2>Project name</h2></div><p>A one-line explanation of the project and what made it meaningful.</p><a href="#" aria-label="View Project name">↗</a></article>
-    <article class="project-row"><span class="project-number">02</span><div><p class="project-type">Category · Year</p><h2>Another project</h2></div><p>A one-line explanation of the project and what made it meaningful.</p><a href="#" aria-label="View Another project">↗</a></article>
-    <article class="project-row"><span class="project-number">03</span><div><p class="project-type">Category · Year</p><h2>One more project</h2></div><p>A one-line explanation of the project and what made it meaningful.</p><a href="#" aria-label="View One more project">↗</a></article>
+    <article class="project-detail" id="emergency-social-network">
+      <div class="project-detail-heading"><span class="project-number">01</span><div><p class="project-type">TypeScript · Node.js · MongoDB · Socket.IO</p><h2>Emergency Social Network</h2><p class="project-date">September–December 2025</p></div></div>
+      <div class="project-detail-copy"><p>A social network that helps users communicate with ease during emergencies.</p><ul><li>Collaborated with four software engineers to design and implement an Express backend in TypeScript.</li><li>Used MongoDB Atlas for scalable storage and Socket.IO for real-time broadcasting.</li><li>Maintained Jest tests in the CI/CD pipeline to improve reliability and code coverage.</li></ul></div>
+    </article>
+    <article class="project-detail" id="search-engine">
+      <div class="project-detail-heading"><span class="project-number">02</span><div><p class="project-type">Python · Flask · Beautiful Soup</p><h2>Search Engine</h2><p class="project-date">January–March 2021</p></div></div>
+      <div class="project-detail-copy"><p>An Elasticsearch-like search engine that indexes tens of thousands of documents and web pages with response times under 300 milliseconds.</p><ul><li>Designed a tuned web scraper for the UCI ICS website and parsed content with Beautiful Soup.</li><li>Implemented an inverted index with tf-idf ranking for efficient, relevant retrieval.</li><li>Built a Flask interface and optimized the system for fast, reliable queries.</li></ul></div>
+    </article>
   </div>
 </section>

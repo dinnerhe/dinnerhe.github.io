@@ -1,17 +1,26 @@
 ---
 title: About
 permalink: /about/
-description: A little more about me and how I work.
+description: About Qiwei He, a software engineer and Carnegie Mellon graduate student.
 ---
 
 <section class="shell page-wrap">
-  <header class="page-header"><p class="eyebrow">About</p><h1>A place to tell<br><em>your story.</em></h1><p class="page-lead">Use this page to share the path that brought you here, what guides your work, and what you care about beyond it.</p></header>
+  <header class="page-header"><p class="eyebrow">About</p><h1>Software with<br><em>purpose.</em></h1><p class="page-lead">I’m Qiwei He, a software engineer focused on creating dependable systems and thoughtful user experiences.</p></header>
   <div class="about-grid">
-    <div class="portrait-placeholder" aria-label="Portrait placeholder"><span>Portrait</span></div>
+    <aside class="profile-panel" aria-label="Profile summary">
+      <p class="eyebrow">At a glance</p>
+      <dl>
+        <div><dt>Based in</dt><dd>Mountain View, California</dd></div>
+        <div><dt>Studying</dt><dd>M.S. Software Engineering, Carnegie Mellon University</dd></div>
+        <div><dt>Focus</dt><dd>Full-stack development, systems, security</dd></div>
+        <div><dt>Languages</dt><dd>C#, TypeScript, Python, C/C++, Java, F#</dd></div>
+      </dl>
+    </aside>
     <div class="prose about-copy">
-      <h2>A short introduction</h2><p>Start with a few sentences about who you are and what you do. This can be personal, professional, or a little of both.</p><p>Follow with more context: your experience, your point of view, or the kinds of questions you enjoy exploring.</p>
-      <h2>What I value</h2><p>Add a few principles that describe how you approach your craft and collaborate with others.</p>
-      <h2>Elsewhere</h2><p>When you’re not working, mention the interests, places, or small rituals that make you feel like yourself.</p>
+      <h2>My path</h2><p>I’m currently pursuing a Master of Science in Software Engineering at Carnegie Mellon University’s Silicon Valley campus, where my work spans computer systems, software engineering, functional programming, and information security. I have also supported students as a teaching assistant for Functional Programming.</p>
+      <p>Before CMU, I earned a B.S. in Computer Science from the University of California, Irvine, specializing in Systems and Software.</p>
+      <h2>How I work</h2><p>My experience covers the full product stack—from React and Angular interfaces to Java, Node.js, and ASP.NET Core services, backed by relational and document databases. I care about making complex operational software secure, maintainable, and genuinely easier to use.</p>
+      <h2>Let’s connect</h2><p>You can reach me at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> or find me on <a href="{{ site.author.linkedin }}">LinkedIn</a>.</p>
     </div>
   </div>
 </section>

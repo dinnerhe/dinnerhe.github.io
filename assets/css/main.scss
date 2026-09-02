@@ -91,7 +91,11 @@ h1, h2, h3, p { margin-top: 0; }
 .compact-header h1 { margin-bottom: 0; }
 .compact-header .page-lead { padding-bottom: 10px; }
 .about-grid { display: grid; grid-template-columns: minmax(280px, .8fr) 1.2fr; gap: clamp(48px, 10vw, 140px); align-items: start; }
-.portrait-placeholder { display: grid; place-items: center; aspect-ratio: 4 / 5; color: #6c776f; background: var(--sage); font-family: "Newsreader", serif; font-size: 24px; }
+.profile-panel { padding: clamp(32px, 5vw, 58px); background: var(--sage); }
+.profile-panel dl { margin: 0; }
+.profile-panel dl > div { padding: 19px 0; border-top: 1px solid rgba(23, 33, 29, .22); }
+.profile-panel dt { margin-bottom: 5px; color: #4f5c54; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+.profile-panel dd { margin: 0; font-family: "Newsreader", serif; font-size: 19px; line-height: 1.45; }
 .prose { max-width: 720px; font-family: "Newsreader", serif; font-size: 20px; line-height: 1.72; }
 .prose h2 { margin: 2.2em 0 .6em; font-family: "DM Sans", sans-serif; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; }
 .prose h2:first-child { margin-top: 0; }
@@ -109,6 +113,28 @@ h1, h2, h3, p { margin-top: 0; }
 .project-row p { margin: 0; color: var(--muted); font-size: 14px; }
 .project-row > a { font-size: 20px; transition: transform .2s ease; }
 .project-row:hover > a { transform: translate(3px, -3px); }
+.project-detail { scroll-margin-top: 30px; display: grid; grid-template-columns: 1fr 1.15fr; gap: clamp(40px, 8vw, 100px); padding: 54px 0 64px; border-bottom: 1px solid var(--line); }
+.project-detail-heading { display: grid; grid-template-columns: 44px 1fr; gap: 12px; }
+.project-detail h2 { margin: 7px 0 6px; font-family: "Newsreader", serif; font-size: clamp(32px, 4vw, 46px); font-weight: 400; line-height: 1.05; }
+.project-date, .project-detail-copy { color: var(--muted); }
+.project-date { font-size: 12px; }
+.project-detail-copy p { font-size: 17px; color: var(--ink); }
+.project-detail-copy ul, .experience-copy ul { margin: 18px 0 0; padding-left: 20px; }
+.project-detail-copy li, .experience-copy li { margin-bottom: 10px; }
+.resume-section { margin-top: 100px; }
+.resume-section:first-of-type { margin-top: 0; }
+.resume-section-title { margin-bottom: 26px; padding-bottom: 18px; border-bottom: 1px solid var(--ink); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+.experience-item { display: grid; grid-template-columns: minmax(210px, .7fr) 1.3fr; gap: clamp(40px, 8vw, 110px); padding: 44px 0 52px; border-bottom: 1px solid var(--line); }
+.experience-meta p:last-child { color: var(--muted); font-size: 14px; }
+.experience-copy h3 { margin-bottom: 12px; font-family: "Newsreader", serif; font-size: clamp(29px, 4vw, 39px); font-weight: 400; line-height: 1.1; }
+.experience-copy h4 { margin: 30px 0 8px; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+.experience-copy > p { margin-bottom: 12px; font-size: 17px; }
+.experience-copy li, .experience-note { color: var(--muted); }
+.skills-grid { display: grid; grid-template-columns: 1fr 1fr; margin: 0; border-top: 1px solid var(--ink); }
+.skills-grid > div { padding: 28px 30px 30px 0; border-bottom: 1px solid var(--line); }
+.skills-grid > div:nth-child(even) { padding-left: 30px; border-left: 1px solid var(--line); }
+.skills-grid dt { margin-bottom: 8px; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+.skills-grid dd { margin: 0; color: var(--muted); }
 .note-row { display: grid; grid-template-columns: 150px 1fr 30px; gap: 30px; align-items: start; padding: 34px 0; border-bottom: 1px solid var(--line); }
 .note-row time { color: var(--muted); font-size: 12px; text-transform: uppercase; }
 .note-row p { margin: 6px 0 0; color: var(--muted); }
@@ -140,11 +166,14 @@ h1, h2, h3, p { margin-top: 0; }
   .page-header h1, .error-page h1 { font-size: clamp(50px, 15vw, 70px); }
   .page-lead { margin-left: 0; }
   .about-grid { grid-template-columns: 1fr; }
-  .portrait-placeholder { max-width: 430px; }
+  .profile-panel { max-width: 520px; }
   .compact-header { display: block; }
   .compact-header h1 { margin-bottom: 30px; }
   .project-row { grid-template-columns: 32px 1fr 24px; gap: 15px; }
   .project-row > p { grid-column: 2 / -1; }
+  .project-detail, .experience-item { grid-template-columns: 1fr; gap: 24px; }
+  .skills-grid { grid-template-columns: 1fr; }
+  .skills-grid > div:nth-child(even) { padding-left: 0; border-left: 0; }
   .note-row { grid-template-columns: 1fr 24px; }
   .note-row time { grid-column: 1 / -1; }
 }
